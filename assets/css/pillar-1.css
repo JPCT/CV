@@ -545,6 +545,12 @@ progress {
   list-style: none;
 }
 
+.list-unstyled-2 {
+  padding-left: 0;
+  list-style: none;
+  padding-top: 40%;
+}
+
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -10306,11 +10312,12 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .resume-header {
   background: #434E5E;
   color: rgba(255, 255, 255, 0.9);
-  height: 220px;
+  height: 230px;
 }
 
 .resume-header .picture {
   width: 220px;
+  height: 230px;
 }
 
 .resume-header .name {
@@ -10406,6 +10413,12 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .resume-position-time {
   font-size: 0.875rem;
   color: #aab4c3;
+}
+
+.resume-company-location {
+  font-size: 0.8rem;
+  color: #aab4c3;
+  padding-left: 11rem;
 }
 
 .resume-position-title {
